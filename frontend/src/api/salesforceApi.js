@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api/salesforce";
+const BASE_URL = "salesforce-validation-production.up.railway.app";
 
 export const getRules = async () => {
   const res = await fetch(`${BASE_URL}/validation-rules`, {
