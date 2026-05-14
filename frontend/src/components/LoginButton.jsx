@@ -1,6 +1,6 @@
 export default function LoginButton() {
   const handleLogin = () => {
-    window.location.href = "http://localhost:5000/login";
+    window.location.href = "https://salesforce-validation-production.up.railway.app/login";
   };
 
   return (
