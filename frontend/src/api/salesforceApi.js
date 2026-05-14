@@ -1,4 +1,5 @@
-const BASE_URL = "salesforce-validation-production.up.railway.app";
+const BASE_URL = "https://salesforce-validation-production.up.railway.app/api/salesforce";
+
 
 export const getRules = async () => {
   const res = await fetch(`${BASE_URL}/validation-rules`, {
