@@ -13,7 +13,7 @@ import java.util.Map;
 @CrossOrigin(
         origins = {
                 "http://localhost:5173",
-                "https://YOUR-VERCEL-URL.vercel.app"
+                "https://salesforce-validation-two.vercel.app"
         },
         allowCredentials = "true"
 )
